@@ -3,7 +3,7 @@ Uses Vite combined with iconic capacitor to build web apps, ios apps and android
 
 
 # Installation
-All the nesscesary commands are given in the package.json file in the scripts section.
+All the necessary commands are given in the package.json file in the scripts section.
   - npm run setup
 
 Notice the setup will create both files for android and ios. If you need only one then feel free to edit the scripts section.
