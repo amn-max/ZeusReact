@@ -21,7 +21,8 @@ For web
 
 For desktop
   - npm run desktop-app
-  Note: The BrowserRouter component works well with request based frameworks like react, it may not work at all with file-based environments like Electron. The react-router-dom package ships with the [Hash Router](https://v5.reactrouter.com/web/api/HashRouter) Component that works like a [BrowserRouter](https://v5.reactrouter.com/web/api/BrowserRouter) in a file-based environment
+
+Note: If you are using react-router. The BrowserRouter component works well with request based frameworks like react, it may not work at all with file-based environments like Electron. The react-router-dom package ships with the [Hash Router](https://v5.reactrouter.com/web/api/HashRouter) Component that works like a [BrowserRouter](https://v5.reactrouter.com/web/api/BrowserRouter) in a file-based environment
 
 
 # More
