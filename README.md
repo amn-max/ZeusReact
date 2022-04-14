@@ -3,6 +3,8 @@ Uses Vite+Electron combined with iconic capacitor to build web apps, ios apps, a
 
 
 # Installation
+Fork/ clone this repo and you can get started.
+
 All the necessary commands are given in the package.json file in the scripts section.
   - npm run setup
 
