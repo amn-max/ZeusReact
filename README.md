@@ -20,3 +20,30 @@ For web
   - npm run vite
 
 For more on the capcitorjs check out there [docs](https://capacitorjs.com/docs).
+
+
+# More
+  - capacitor.config.json
+  ```
+  {
+    "appId": "io.ionic.nameofyourapp",
+    "appName": "nameofyourapp",
+    "bundledWebRuntime": false,
+    "npmClient": "npm",
+    "webDir": "build",
+    "cordova": {}
+  }
+  ```
+  
+  - ionic.config.json
+  ```
+  {
+  "name": "nameofyourapp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+  }
+  ```
+  
+  Note: replace nameofyourapp in both files with the name of your app.
