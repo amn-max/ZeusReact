@@ -1,5 +1,5 @@
 # All-Father-Starter-Kit-React
-Uses Vite combined with iconic capacitor to build web apps, ios apps and android apps. All in one go.
+Uses Vite+Electron combined with iconic capacitor to build web apps, ios apps, android apps and desktop apps. All in one go.
 
 
 # Installation
@@ -19,7 +19,9 @@ If you are using ios
 For web
   - npm run vite
 
-For more on the capcitorjs check out there [docs](https://capacitorjs.com/docs).
+For desktop
+  - npm run desktop-app
+  Note: The BrowserRouter component works well with request based frameworks like react, it may not work at all with file-based environments like Electron. The react-router-dom package ships with the [Hash Router](https://v5.reactrouter.com/web/api/HashRouter) Component that works like a [BrowserRouter](https://v5.reactrouter.com/web/api/BrowserRouter) in a file-based environment
 
 
 # More
@@ -47,3 +49,5 @@ For more on the capcitorjs check out there [docs](https://capacitorjs.com/docs).
   ```
   
   Note: replace nameofyourapp in both files with the name of your app.
+  
+  For more on the capcitorjs check out there [docs](https://capacitorjs.com/docs).
